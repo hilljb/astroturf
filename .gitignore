@@ -1,1 +1,3 @@
-conf.py
+*.json
+*.swp
+astroturf_config.*
