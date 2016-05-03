@@ -168,6 +168,7 @@ if __name__ == "__main__":
             metrics['average_age'] = metrics['total_age'] / metrics['new_user_count']
         metrics['time'] = long(time.time())
         metrics['median_age'] = median_age
+        metrics['ages'] = ages
         g_p.write("%s\n" % json.dumps(metrics))
         g_p.close()
 
